@@ -1,0 +1,100 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+   font-family: $main-font;
+	font-weight: $regular;
+   font-size: $size-base;
+   line-height: 1;
+   color: $text-color;
+	margin: 0px;
+	padding: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-style: normal;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+   font-family: $main-font;
+   font-size: $size-h1;
+   line-height: 1;
+   color: $text-color; 
+}
+h2{
+   font-family: $main-font;
+   font-size: $size-h2;
+   line-height: 1;
+   color: $text-color; 
+}
+h3{
+   font-family: $main-font;
+   font-size: $size-h3;
+   line-height: 1;
+   color: $text-color; 
+}
+h4{
+   font-family: $main-font;
+   font-size: $size-h4;
+   line-height: 1;
+   color: $text-color; 
+}
+h5{
+   font-family: $main-font;
+   font-size: $size-h5;   
+   line-height: 1;
+   color: $text-color; 
+}
+h6{
+   font-family: $main-font;
+   font-weight: $bold;
+   font-size: $size-h6;
+   text-transform: uppercase;
+   line-height: 1;
+   color: $text-color; 
+   letter-spacing: 2px;
+   padding: 0 0 24px;
+}
+p {
+	font-family: $main-font;
+   font-size: $size-base;
+   line-height: 1.25;
+   font-weight: $regular;
+   color: $text-color;
+   margin: 0px;
+	padding: 0 0 20px;
+}
+ul {
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	list-style-image: none;
+	list-style-type: none;
+}
+ul li {
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	list-style-image: none;
+	list-style-type: none;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+	outline: 0px none !important;
+}
+img, a img {
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: none 0;
+	outline: 0px none !important;
+}
+input:focus, textarea:focus, a:focus {
+	outline: 0px none !important;
+}

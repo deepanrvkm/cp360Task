@@ -1,0 +1,49 @@
+// Variables
+// --------------------------  
+ 
+// Colors and backgrounds
+// --------------------------
+
+$darker:                      #000000!default;
+$lighter: 		              #ffffff!default;
+$text-color:                  #222222;  
+$link-color:                  #0070b0;
+
+
+//== Typography
+// --------------------------  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+$main-font: 'Roboto', sans-serif;
+
+$extralight: 100;
+$light:      300;
+$regular:    400;
+$medium:     500;
+$semibold:   600;
+$bold:       700;
+$extrabold:  800;
+
+
+$size-base:    16px !default; 
+
+$size-h1: ceil(($size-base * 2.00))  !default;   // ~32px
+$size-h2: ceil(($size-base * 1.75))  !default;   // ~28px
+$size-h3: ceil(($size-base * 1.50))  !default;   // ~24px
+$size-h4: ceil(($size-base * 1.375)) !default;   // ~22px
+$size-h5: ceil(($size-base * 1.25))  !default;   // ~20px
+$size-h6: ceil(($size-base * .875)) !default;   // ~14px
+
+
+//== Media queries breakpoints 
+$desktop-only:  "only screen and (min-width : 768px)";
+$mobile-only:   "only screen and (max-width : 767px)";
+$medium-screen: "only screen and (min-width: 1560x) and (max-width: 1919px)";
+$small-screen:  "only screen and (min-width: 1200px) and (max-width: 1559px)"; 
+$tablet:        "only screen and (min-width: 768px) and (max-width: 1199px)";
+$mobile-sm:     "only screen and (max-width : 575px)"; 
+
+
+
+
+ 
